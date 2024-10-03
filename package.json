@@ -1,7 +1,6 @@
 {
-  "homepage": "https://hiewying.github.io/react-crud-todo-2/",
   "name": "react-app-4-todo",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
