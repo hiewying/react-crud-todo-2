@@ -29,7 +29,7 @@ export default function TodosContextProvider({children}: TodosContextProviderPro
 
   function getInitialTodos(){
     //check if any todos in localStorage
-    const savedTodos = localStorage.getItem('todos')
+    const savedTodos = localStorage.getItem('todos4')
 
     if(savedTodos)
       return JSON.parse(savedTodos)
@@ -97,7 +97,7 @@ export default function TodosContextProvider({children}: TodosContextProviderPro
 
   // persist data in localStorage
   useEffect(() => {
-    localStorage.setItem('todos', JSON.stringify(todos))
+    localStorage.setItem('todos4', JSON.stringify(todos))
   }, [todos])
 
 
